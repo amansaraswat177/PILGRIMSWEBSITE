@@ -1,0 +1,31 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), 
+      url('/path/to/your-image.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--text-color);
+  }
+  
+  .hero-title {
+    font-size: 32px;
+    font-family: var(--font-family-secondary);
+    color: var(--primary-color);
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .hero-button {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
